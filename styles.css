@@ -1,0 +1,111 @@
+/** Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background: #35424a;
+    padding: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+/* Buttons */
+button, .btn {
+    background: #e8491d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover, .btn:hover {
+    background: #d7361a;
+}
+
+/* Cards */
+.card {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+/* Forms */
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+
+/* Footer */
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Utility Classes */
+.m-10 {
+    margin: 10px;
+}
+.p-10 {
+    padding: 10px;
+}
+
+/* Responsive Design Media Queries */
+@media screen and (max-width: 768px) {
+    nav {
+        text-align: center;
+    }
+}
+
+/* Animations */
+.fade-in {
+    animation: fadeIn 0.5s ease-in forwards;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Alert Classes */
+.alert {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.alert-success {
+    background-color: #dff0d8;
+    color: #3c763d;
+}
+.alert-danger {
+    background-color: #f2dede;
+    color: #a94442;
+}
