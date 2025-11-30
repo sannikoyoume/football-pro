@@ -1,0 +1,29 @@
+# Composer
+/vendor/
+
+# Laravel
+/.env
+/public/hot
+/public/storage
+/storage/*.key
+
+# PHPUnit
+.phpunit.result.cache
+
+# IDE files
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Composer PHAR
+composer.phar
+
+# Env file
+.env.local
+.env.*.local
+
+# Log files
+/logs/*.log
